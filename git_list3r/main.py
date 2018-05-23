@@ -86,11 +86,12 @@ def test(args):
 	open(os.path.join(SAVE_DIR, "file_list.txt"), "w+").write("\n".join(file_list))
 	return 0
 
-def main(args):
+def main():
+	args = sys.argv
 	if len(args) < 2: return usage()
 	if args[1] not in ["test", "version"]: return usage()
 	if (args[1] == "test"): return test(args)
 	if (args[1] == "version"): return version(args)
 
 if __name__ == '__main__':
-	exit(main(sys.argv))
+	exit(main())
