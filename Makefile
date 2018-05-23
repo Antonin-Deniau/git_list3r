@@ -9,7 +9,7 @@ install:
 publish:
 	$(PIP) install twine wheel
 	$(PYTHON) setup.py sdist bdist_wheel
-	$(TWINE) upload dist/*
+	$(TWINE) upload dist/* -r pypi
 
 clean:
 	rm -fr build dist .egg requests.egg-info
