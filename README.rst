@@ -19,5 +19,10 @@ Example for a website named example.com:
 
 .. code:: bash
 
-    git_list3r test example_folder http://example.com
-    git_list3r version example_folder
+	Usage:
+	  git_list3r test [--timeout=<timeout>]
+	                  [--web_base=<web_base>]
+	                  [--file_base=<file_base>] <folder> <url>
+	  git_list3r version <folder>
+	  git_list3r -h | --help
+	  git_list3r --version

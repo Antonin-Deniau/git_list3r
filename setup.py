@@ -9,7 +9,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='git_list3r',
-    version='1.0.0',
+    version='1.1.0',
     description='Search for repo files on a website, and guess the last commit version',
     long_description=long_description,
     url='https://github.com/Antonin-Deniau/git_list3r',
