@@ -29,7 +29,7 @@ setup(
 
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
 
-    install_requires=['GitPython', 'requests', 'pathlib'],
+    install_requires=['GitPython', 'requests', 'pathlib', 'docopt'],
 
     extras_require={},
 
